@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.gao.it.drm.usf.DiscoveryClientAutoConfiguration
+
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  com.gao.it.drm.usf.processor.GatewayEnvironmentPostProcessor
